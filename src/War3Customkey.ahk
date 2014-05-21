@@ -53,7 +53,7 @@ P.S: 本程式為一外掛，使用與否請自行斟酌。
 ; #MaxHotkeysPerInterval 200
 #Persistent   ; Keeps a script permanently running (that is, until the user closes it or ExitApp is encountered).
 #SingleInstance force   ; The word FORCE skips the dialog box and replaces the old instance automatically, which is similar in effect to the Reload command.
-FileInstall, PeonReady1.wav, PeonReady1.wav, 0
+FileInstall, OrcMaleGuardNPCGreeting01.wav, OrcMaleGuardNPCGreeting01.wav, 0
 FileInstall, War3CustomkeyReadme.txt, War3CustomkeyReadme.txt, 0
 FileInstall, War3Customkey.ini, War3Customkey.ini, 0
 FileInstall, image.png, image.png, 1
@@ -208,7 +208,7 @@ Label_Toggle:
     Guicontrol, Show, 暫停 (%Key_Toggle%)
     IfWinActive, Warcraft III
     {
-      SoundPlay, PeonReady1.wav
+      SoundPlay, OrcMaleGuardNPCGreeting01.wav
       If Status_Blood = 1
       {
         Send, {[ Down}{] Down}
