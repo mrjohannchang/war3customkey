@@ -1,4 +1,10 @@
-﻿/*
+﻿; Copyright 2009-2018 Henry Chang
+;
+; This Source Code Form is subject to the terms of the Mozilla Public
+; License, v. 2.0. If a copy of the MPL was not distributed with this
+; file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+/*
 CustomKey for Warcraft III
 --------------------------
 Developed on: Autohotkey 1.1.14.04 ANSI
@@ -19,12 +25,6 @@ Instruction
 Logo Key to be null.
     本程式能讓您重新設定魔獸爭霸3的熱鍵。亦可自動持續顯示生命值條，
 開啟或關閉 Alt 組合鍵功能、視窗鍵功能。
-
-     This program is free software; you can redistribute it and/or modify it under
-the terms of the GNU General Public License as published by the Free Software
-Foundation; either version 2 of the License, or (at your option) any later version
-.
-    這是一支免費程式。你可以任意地散佈；也可以在 GNU 的規範下重新編寫、修改程式。
 
 P.S: 本程式為一外掛，使用與否請自行斟酌。
      但根據 http://warkeys.sourceforge.net/faq.php  中之解釋，本程式不違反公平原則
